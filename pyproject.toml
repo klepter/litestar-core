@@ -1,0 +1,9 @@
+[project]
+name = 'Litestar Core'
+version = '0.1.0'
+dependencies = [
+    'litestar==2.11.0',
+    'uvicorn==0.30.6',
+    'pydantic-settings==2.5.2',
+    'redis==5.0.8'
+]
