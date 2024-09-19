@@ -1,9 +1,12 @@
 [project]
-name = 'Litestar Core'
+name = 'Litestar-core'
 version = '0.1.0'
 dependencies = [
     'litestar==2.11.0',
     'uvicorn==0.30.6',
     'pydantic-settings==2.5.2',
-    'redis==5.0.8'
+    'redis==5.0.8',
+    'advanced_alchemy==0.19.3',
+    'asyncpg==0.29.0',
+    'psycopg-binary==2.9.9'
 ]
